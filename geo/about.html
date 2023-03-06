@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img style="height:60px;width:fit-content" src="./images/logo.png">
+            <div class="nav-line">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            navline = document.querySelector(".nav-line");
+            navline.onclick = function () {
+                navbar = document.querySelector(".nav-bar");
+                navbar.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>

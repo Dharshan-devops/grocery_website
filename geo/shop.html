@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box {
+            margin-top: 5%;
+            margin-left: 5%;
+            display: inline-flex;
+            height: 200px;
+            width: fit-content;
+            padding-left:5px;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            background: linear-gradient(green,white);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img style="height:60px;width:fit-content" src="./images/logo.png">
+        <div class="nav-line">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#shop" class="active">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="box">
+        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
+    </div>
+
+    <div class="box">
+        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
+    </div>
+
+
+
+    <div class="box">
+        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
+    </div>
+
+
+
+    <div class="box">
+        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        navline = document.querySelector(".nav-line");
+        navline.onclick = function () {
+            navbar = document.querySelector(".nav-bar");
+            navbar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
