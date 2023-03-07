@@ -3,18 +3,39 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <style>
+
         .box {
-            margin-top: 5%;
-            margin-left: 5%;
-            display: inline-flex;
+            margin-top:6%;
+            margin-left: 6%;
+            display:inline-flex;
             height: 200px;
             width: fit-content;
+            justify-content: center;
             padding-left:5px;
             padding-top: 5px;
             padding-right: 5px;
-            padding-bottom: 5px;
-            background: linear-gradient(green,white);
+            padding-bottom: 15px;
+            background: green;
+            border-radius: 25px;
+            justify-content:center;
+            align-items:center;
+            position: relative;
         }
+
+        .box:hover{
+            background:yellowgreen;
+            transition: 0.5s;
+        }
+
+
+        p{
+            top:182px;
+            position: absolute;
+            color:aliceblue;
+            justify-content: center;
+            align-items: center;      
+        }
+
     </style>
 </head>
 
@@ -37,38 +58,47 @@
 
     </header>
 
-    <div class="box">
-        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
+
+    <div class="input">
     </div>
-
-    <div class="box">
-        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
-    </div>
-
-
-
-    <div class="box">
-        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
-    </div>
+        <ul>
+        <a href="#bag"><li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/tomato.jpg">
+            <p>&#8377 50<p>
+        </li></a>
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/apple.jpg">
+            <p>&#8377 50<p>
+        </li>
 
 
-
-    <div class="box">
-        <img style="height:auto;width:fit-content;" src="./images/tomato.jpg">
-    </div>
-
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/cherry.jpg">
+            <p>&#8377 50</p>
+        </li>
 
 
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/Banana.jpg">
+            <p>&#8377 50</p>
+        </li>
 
 
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/apple.jpg">
+            <p>&#8377 50</p>
+        </li>
 
 
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/cherry.jpg">
+            <p>&#8377 50</p>
+        </li>
 
 
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/tomato.jpg">
+            <p>&#8377 50</p>
+        </li>
 
 
-
-
+        <li class="box"><img style="height:170px;width:fit-content; border-radius: 20px;" src="./images/apple.jpg">
+            <p>&#8377 50</p>
+        </li>
+        </ul>
 
 
 
